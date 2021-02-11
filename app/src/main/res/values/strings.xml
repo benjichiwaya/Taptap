@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Taptap</string>
+    <string name="new_score">\"NEW SCORE:  \"</string>
+    <string name="high_score">\"HIGHSCORE:  \"</string>
+    <string name="gameover">GAME OVER</string>
+    <string-array name="colors_array">
+        <item>RED</item>
+        <item>YELLOW</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>PURPLE</item>
+    </string-array>
+</resources>
