@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:id="@+id/mainlayout"
     android:background="@android:color/darker_gray">
 
     <TextView
@@ -12,8 +13,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="tvTap"
+        android:textColor="@color/black"
+        android:shadowColor="@color/white"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="2"
         android:text="START"
-        android:textSize="36sp"
+        android:textSize="56sp"
+        android:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

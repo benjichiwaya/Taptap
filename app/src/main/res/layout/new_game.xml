@@ -2,11 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/newgame"
     android:layout_width="300dp"
-    android:layout_gravity="center"
     android:layout_height="wrap_content"
-    android:id="@+id/newgame">
+    android:layout_gravity="center"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,38 +16,40 @@
 
     <TextView
         android:id="@+id/highscore"
-        android:layout_margin="10dp"
-        android:textSize="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
         android:elevation="10dp"
         android:text="HighScore"
-        android:layout_gravity="center"/>
+        android:textSize="18dp"
+        android:fontFamily=""/>
+
     <TextView
         android:id="@+id/newscore"
-        android:layout_margin="10dp"
-        android:textSize="18dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Score"
         android:layout_gravity="center"
-        />
+        android:layout_margin="10dp"
+        android:text="New Score"
+        android:textSize="18dp" />
+
     <Button
         android:id="@+id/game_button"
-        android:layout_margin="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="START GAME"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
         android:gravity="center"
-        android:layout_gravity="center"/>
+        android:text="START GAME" />
 
     <TextView
         android:id="@+id/gameOver"
-        android:textSize="18dp"
-        android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/gameover"
         android:layout_gravity="center"
-        android:visibility="invisible"/>
+        android:layout_margin="20dp"
+        android:text="@string/gameover"
+        android:textSize="18dp"
+        android:visibility="invisible" />
 </LinearLayout>
